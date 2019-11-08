@@ -6,7 +6,7 @@ function PlaySound(soundobj) {
 
 function StopSound(soundobj) {
     var thissound=document.getElementById(soundobj);
-    thissound.pause();
-    thissound.currentTime = 0;
+    //thissound.pause();
+    //thissound.currentTime = 0;
 }
 

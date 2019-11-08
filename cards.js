@@ -1,13 +1,12 @@
 
-document.getElementById("Sound1").onmouseover = function() {mouseOver};
-document.getElementById("Sound1").onmouseout = function() {mouseOut};
-
-function mouseOver() {
-  document.getElementById("Sound1").play();
+function PlaySound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.play();
 }
 
-function mouseOut() {
-  document.getElementById("Sound1").stop();
+function StopSound(soundobj) {
+    var thissound=document.getElementById(soundobj);
+    thissound.pause();
+    thissound.currentTime = 0;
 }
-
 

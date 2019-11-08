@@ -1,12 +1,13 @@
-function PlaySound(soundobj) {
-    var thissound = document.getElementById(soundobj);
-    if (mouseOver == True)
-    thissound.play();
+
+document.getElementById("Sound1").onmouseover = function() {mouseOver};
+document.getElementById("Sound1").onmouseout = function() {mouseOut};
+
+function mouseOver() {
+  document.getElementById("Sound1").play();
 }
 
-function StopSound(soundobj) {
-    var thissound = document.getElementById(soundobj);
-    if (mouseOver == False)
-    thissound.pause();
-    thissound.currentTime = 0;
+function mouseOut() {
+  document.getElementById("Sound1").stop();
 }
+
+

@@ -2,7 +2,7 @@
 
 /* -- Body of the page -- */
 body {
-  background: url('background.jpg') no-repeat center center fixed;
+  background: url('images/background.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -16,7 +16,8 @@ body {
     font-size: 32px;
     font-weight: bolder;
     padding-top: 32px;
-    padding-bottom: 18px;
+    padding-bottom: 26px;
+    color: #e6e699;
 }
 
 .scary {
@@ -31,8 +32,9 @@ body {
   background-color: transparent;
   width: 200px;
   height: 300px;
-  border: 1px solid #f1f1f1;
+  border-radius: 25px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin-bottom: 20px;
 }
 
 /* This container is needed to position the front and back side */
@@ -43,6 +45,7 @@ body {
   text-align: center;
   transition: transform 0.9s;
   transform-style: preserve-3d;
+  border-radius: 25px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -62,6 +65,7 @@ body {
 .flip-box-front {
   background-color: #bbb;
   color: black;
+  border-radius: 25px;
 }
 
 /* Style the back side */
@@ -69,4 +73,9 @@ body {
   background-color: dodgerblue;
   color: white;
   transform: rotateY(180deg);
+  border-radius: 25px;
+}
+
+img {
+    border-radius: 25px;
 }

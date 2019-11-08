@@ -1,10 +1,10 @@
 # hackathon-nov2019-team2
 
-Banshee themed card game made by Team2.
+Shrieking Banshee themed card game made by Team2.
 
 ## Getting Started
 
-We got started on the hackathon project by first getting our theme of Banshee from code institute.
+We got started on the hackathon project by first getting our theme of Banshee from Code Institute.
 We all connected up on Slack and then briefly spoke with our team judge Maria.
 Our team was made up of Dawido, Fiza, Patrick, Lenting and RayOOlight.
 We brainstormed our ideas on Slack via a call.
@@ -12,16 +12,13 @@ We brainstormed our ideas on Slack via a call.
 We agreed to use GitPod to make the project that has HTML5, CSS3, Images, Sound effects and some Javascript.
 
 #What is it?
-It is a interactive webpage that has images of the Banshee and when you move the mouse over the card it flips the card and plays
-a sound effect and displays the Banshee image.
+It is a interactive webpage that has 9 images of Shrieking Banshees. When you move the mouse over the card, the cards flips, plays
+a terrifying sound effect and displays an image of a Shrieking Banshee.
 
 
 #Testing
-For testing we ran the code in google chrome and tried to help each other find solutions to challenges we had to overcome.
-Tested left and right controls for player until desired outcome. Tested collisions between player,enemies and goal worked.
-Tested game to make sure all sound effects and music worked without problems Tested to make sure messages showed up when you lose or win.
-Tested to make sure sprites loaded correctly. Tested to make sure background loaded.
-Tested to see if it was possible to win the game. It is possible just need to get the timing right. Tested links to game work and that game runs.
+For testing we ran the code in Google Chrome and helped each other find solutions to challenges we had to overcome.
+Tested game to make sure all sound effects worked.
 
 ## Deployment
 
@@ -32,7 +29,6 @@ We also
 
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
 * [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
@@ -62,6 +58,8 @@ Sounds--------------------------------------------------------------------------
 
 Images---------------------------------------------------------------------------------
 
+Since the project is for educational purposes only (and we where in a hurry), we used images we found through Google.
+
 Banshee 1
 https://pm1.narvii.com/6989/b62e4e8693a1ef955207ac8d871b9f3e227a9c90r1-774-1032v2_hq.jpg
 Banshee 2
@@ -80,6 +78,5 @@ Banshee 8
 https://i.pinimg.com/originals/50/d2/31/50d23164bf2ad993f8d1b7d9610f2d9e.jpg
 Banshee 9
 https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh2jar9OVvdgxc6TOzwCOYDWom8Dm2VowDy3-Xr2-ybgToZgiS
-
-
-
+Background-image
+http://mischiefmanagedsl.net/wp-content/uploads/BANSHEE.png

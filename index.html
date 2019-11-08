@@ -21,7 +21,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6 col-md-4">
-                    <div class="flip-box" onmouseover="PlaySound('mySound');">
+                    <div class="flip-box" onmouseover="PlaySound('mySound');" onmouseout="StopSound('mySound')">
                         <div class="flip-box-inner">
                             <div class="flip-box-front">
                                 <img src="images/back-card.jpg" alt="Banshee1" style="width:200px;height:300px">
@@ -32,11 +32,6 @@
                         </div>
                     </div>
                     <audio id='mySound' src='sounds/sound5.mp3' type="audio/mpeg"/>
-                    <audio autoplay>
-                        <source src="sounds/sound1.wav" type="audio/wav">
-                        <source src="sounds/sound5.mp3" type="audio/mpeg">
-                        Your browser does not support the audio tag.
-                    </audio>
                 </div>
                 <div class="col-12 col-sm-6 col-md-4">
                     <div class="flip-box">
